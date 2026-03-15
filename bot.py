@@ -2,7 +2,7 @@ import telebot
 import time
 import os
 
-TOKEN = os.environ.get('TOKEN')  # Берет токен из Render
+TOKEN = os.environ.get('8656708043:AAHhgbNl22w-ex7YUKFvYdecEHQe_lRsGXM')  # Берет токен из Render
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
